@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "strings": {
+    "APPLICATION_ERROR_EVENT": {
+      "AppName": {
+        "en": [
+          "Faulting application name:\\s*([^,\\r\\n]+),"
+        ],
+        "fr": [
+          "Nom de l.application défaillante\\s*:?\\s*([^,\\r\\n]+),"
+        ],
+        "ja": [
+          "障害が発生しているアプリケーション名:\\s*([^、\\r\\n]+)"
+        ]
+      },
+      "AppNameVersion": {
+        "en": [
+          "Faulting application name:[^\\r\\n]*?version:\\s*([^,\\r\\n]+)"
+        ],
+        "fr": [
+          "Nom de l.application défaillante[^\\r\\n]*?version\\s*:\\s*([^,\\r\\n]+)"
+        ],
+        "ja": [
+          "障害が発生しているアプリケーション名:[^\\r\\n]*?バージョン:\\s*([^、\\r\\n]+)"
+        ]
+      },
+      "Exception": {
+        "en": [
+          "Exception code:\\s*(\\S+)"
+        ],
+        "fr": [
+          "Code d.exception\\s*:\\s*(\\S+)"
+        ],
+        "ja": [
+          "例外コード:\\s*(\\S+)"
+        ]
+      },
+      "FaultAppPath": {
+        "en": [
+          "Faulting application path:\\s*([^\\r\\n]+)"
+        ],
+        "fr": [
+          "Chemin d.accès de l.application défaillante\\s*:\\s*([^\\r\\n]+)"
+        ],
+        "ja": [
+          "障害が発生しているアプリケーション パス:\\s*([^\\r\\n]+)"
+        ]
+      },
+      "FaultModulePath": {
+        "en": [
+          "Faulting module path:\\s*([^\\r\\n]+)"
+        ],
+        "fr": [
+          "Chemin d.accès du module défaillant\\s*:\\s*([^\\r\\n]+)"
+        ],
+        "ja": [
+          "障害が発生しているモジュール パス:\\s*([^\\r\\n]+)"
+        ]
+      },
+      "ModuleName": {
+        "en": [
+          "Faulting module name:\\s*([^,\\r\\n]+),"
+        ],
+        "fr": [
+          "Nom du module défaillant\\s*:\\s*([^,\\r\\n]+),"
+        ],
+        "ja": [
+          "障害が発生しているモジュール名:\\s*([^、\\r\\n]+)"
+        ]
+      },
+      "ModuleNameVersion": {
+        "en": [
+          "Faulting module name:[^\\r\\n]*?version:\\s*([^,\\r\\n]+)"
+        ],
+        "fr": [
+          "Nom du module défaillant[^\\r\\n]*?version\\s*:\\s*([^,\\r\\n]+)"
+        ],
+        "ja": [
+          "障害が発生しているモジュール名:[^\\r\\n]*?バージョン:\\s*([^、\\r\\n]+)"
+        ]
+      }
+    },
+    "SFC": {
+      "CorruptFilesRepaired": {
+        "en": [
+          "found corrupt files and successfully repaired them"
+        ]
+      },
+      "NoIntegrityViolations": {
+        "en": [
+          "did not find any integrity violations"
+        ],
+        "ja": [
+          "整合性違反を検出しませんでした"
+        ]
+      }
+    },
+    "WINDOWS_UPDATE": {
+      "CumulativeUpdateTitle": {
+        "ar": [
+          "^[0-9]{4}-[0-9]{2}.*تحديث تراكمي.*Windows.*"
+        ],
+        "de": [
+          "^[0-9]{4}-[0-9]{2}.*Kumulatives Update für Windows.*"
+        ],
+        "en": [
+          "^[0-9]{4}-[0-9]{2}.*Cumulative Update for Windows.*"
+        ],
+        "fr": [
+          "^[0-9]{4}-[0-9]{2}.*Mise à jour cumulative pour Windows.*"
+        ],
+        "ja": [
+          "^[0-9]{4}-[0-9]{2}.*Windows.*累積更新プログラム.*"
+        ]
+      },
+      "SecurityMonthlyRollupTitle": {
+        "en": [
+          "^[0-9]{4}-[0-9]{2}.*Security Monthly Quality Rollup.*Windows.*"
+        ]
+      }
+    }
+  }
+}
